@@ -1,0 +1,127 @@
+Levantamento de Requisitos - SITE DE ORGAZINAÇÃO 28/02 (Miguel Garrido)
+
+Aplicativo de Gerenciamento de Tarefas
+
+--> REQUISITOS
+1-Login do aluno -Não Funcionais                                                                    1             1-Alta prioridade
+2-Responsividade - Não Funcionais                                                                   1             2-Média prioridade
+3-Agenda de atividades pendentes - Funcionais                                                       2             3-baixa prioridade
+4-Aba de Atribuições concluidas/atrasadas - Funcionais                                              2
+5-número limitado de projetos -Regra de Negocio                                                     3
+6-chat para suporte - Funcional                                                                     2
+7-acessibilidade - Não Funcional                                                                    1
+8-uso obrigatorio do cpf para cadastro -Regra de Negocio                                            1
+9-Validar cpf - Regra de negocio                                                                    1 
+10-aba de adição de atividades -Funcionais                                                           2
+11-definir a prioridade de atividades em "não importantes, importantes, urgentes" -Funcionais        3
+12-aba para criação de equipes -Funcionais                                                           3
+13-chat das equipes -Funcionais                                                                      3
+14-ingressar em equipe pelo codigo da equipe criada -Funcionais                                      3 
+15-adição de atividades colaborativas em equipe -Funcionais                                          2
+16-notificar de atividades de alta prioridade conforme o dia de entrega -Não Funcionais              1 
+
+
+Analise do melhor da dupla;
+
+    {Agenda de atividades pendentes   
+Aba de Atribuições concluidas/atrasadas }
+
+    {-aba de adição de atividades
+adição de atividades colaborativas em equipe}   
+** Duplicidade nos requisitos.
+
+
+***Falta de requisitos
+
+-Adicionar aba de amigos do usuario
+-Adicionar função de compartilhamento de ativades entre amigos do usuario
+-Adicionar menu para gerenciar o perfil do usuario
+-Gerenciar filtros para visualizar atividades em prioridades
+_____________________________________________________________________________________________
+REGISTRO
+
+1-Login do aluno - Área aonde o usuário vai entrar em sua conta.
+2-Responsividade - Ter uma proporção de tela para diferentes tipos de dispositivos (ex: Celular e Computador).
+
+{Agenda de atividades pendentes/
+Aba de atribuições concluídas e atrasadas} -- Duplicidade
+3-Adicionar agenda de atividades pendentes/concluídas/atrasadas.
+
+4-Numero ilimitados de projetos – Possibilidade limitadas de projetos por usuário 
+5-Chat para suporte - Aba de diálogos com o suporte para possíveis resoluções de problemas/duvidas encontrados.
+6-Acessibilidade – Adicionamento de leitor de telas para pessoas que necessitam.
+7-Uso do Cpf para cadastro – Uso do cpf no cadastro para não ultrapassar o limite de projetos limitados ( Não criar varias contas ).
+8-Validar CPF – Verificação de CPF para a segurança dos usuários.
+9-Aba de adição de atividades – Área de criação/personalização da atividade do usuário.
+10-Aba de criação de equipes – Área aonde que são criadas e opção de entrada nas equipes
+11-Chat das equipes – Aba para o usuário ter acesso as equipes e chats
+12-Notificação de atividades – Notificar o usuário de atividades pendentes ou perto do seu vencimento
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+Levantamento de requisitos - SITE DE MODA (Mateus Cubeiro)
+
+Website de Comércio Eletronico de Moda Sustentavel
+-Função de login - NF                                                                                                         1                           1- alta prioridade
+-Verificar se o cpf está como regular na Receita Federal no cadastro - RN                                                     2                           2- media prioridade
+-Adicionar filtros de tipos de roupas e acessorios - F                                                                        3                           3- baixa prioridade
+-Adicionar aba de produtos favoritos do usuario - F                                                                           3
+-Adicionar função de adicionar produto no carrinho - F                                                                        1
+-Gerenciar produtos no carrinho - F                                                                                           1 
+-Diferentes formas metodos de pagamentos - RN                                                                                 2
+-Ter acessibilidade do site com atendimento em libras- NF                                                                     1
+-Responsividade no site, sendo funcional nos celulares - NF                                                                   1
+-Possuir um menu para ver os pedidos e conta do usuario - F                                                                   2
+-Verificar os dados de pagamentos do usuario - RN                                                                             1
+-Velocidade do site ser boa - NF                                                                                              2
+-Adicionar aba de pesquisa de produtos no site - F                                                                            2
+-Mostrar ao usuario materiais utilizados no produção do produto escolhido,praticas de fabricação e o impacto ambiental - F    1
+-Para a utilização de cupons é necessario o valor da compra acima de 150 reais - RN                                           2
+
+ANALISE do guardiola no manchester city contra chelsea
+
+**DUPLICIDADE
+''-Gerenciar produtos no carrinho
+-Adicionar função de adicionar produto no carrinho'' -falta de função/ sem opção de retirar do carrinho
+ou dividi-las em dois requisitos ou aprofundar mais em ''Gerenciar produtos no carrinho''
+
+**-Falta de requisitos/ 
+                        -chat para suporte
+                        -tabela de medidas de acessorios/roupas
+                        -variações(tamanho/cor) disponiveis do mesmo acessorio/roupa
+			-função de avaliação dos produtos com comentario	              
+___________________________________________________________________________________
+REGISTRO
+
+1-Função de login - Área aonde o usuário vai entrar em sua conta.
+2-Verificação de cpf – Verificação de cpf na receita federal para a segurança do usuário.
+3-Adicionar filtros – Área aonde são filtradas os tipos de roupas e acessórios selecionados pelo usuário .
+4-Aba de produtos favoritos – Adição de área para produtos favoritados pelo usuário para possível visualização .
+
+{Gerenciar produtos no carrinho
+Produtos no carrinho} – Duplicidade
+5- Gerenciamento geral dos produtos escolhidos do usuário no carrinho
+
+6- Formas de métodos de pagamentos – Diferentes formas de pagamento para o ajudar o usuário. 
+7-Acessibilidade – Vídeo para atendimento em libras para os usuários.
+8-Responsividade - Ter uma proporção de tela para diferentes tipos de dispositivos (ex: Celular e Computador).
+9-Menu do Usuário – área onde pode ser visualizado os pedidos e informações gerais do usuário.
+10-Verificação no pagamento – Verificação de dados no pagamento efetuado do usuário .
+11-Otimização – Ter uma velocidade de navegação do usuário. 
+12-Aba de pesquisa no site- Área onde o usuário pode procurar o produto desejado.
+13-Descrição do produto – Mostrar os materiais utilizados no processo de fabricação do produto e seu impacto ambiental .
+14-Regras para utilização de cupom – Para a utilização do cupom é necessário a compra geral estar acima de 150 reais.
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+ALGORITMO EXERCICIO 1 SALVE
+
+narrativa
+
+1 receber dois numeros
+2 se o segundo numero for igual a zero, não realizar divisão
+3 mostrar o resultado da divisao
+  
+
+
+                                                                                     :D                              
+portugol
+
+algoritmo
+declare n1,n2,r numerico
+escreva ''digite aqui o dividendo='' 
+leia n1
+escreva ''digite aqui o divisor='' 
+leia n2
+se n2 = 0
+entao escreva ''impossivel dividir''
+senao inicio
+	r <-- n1/n2
+	escreva ''divisao= '', r
+fim_algoritmo.
+
+___________________________________________________________
+ALGORITMO EXERCICIO 2
+
+narrativa
+
+1-Receber valor do salario
+2-se o valor for menor ou igual q 500 aumentar o mesmo em 20%, senão aumentar o valor em 10%
+3-mostrar resultado
+
+portugol
+
+algoritmo
+declare n, s numerico
+escreva ''digite aqui o salario''
+leia s
+então inicio 
+	se s <= 500
+        n <-- s+(s/100*20)
+        escreva ''novo salario= '', s
+        fim
+senão inicio
+	n <-- s+(s/100*10)
+	escreva ''novo salario= '', s
+        fim
+fim_algoritmo 
+
+________________________________________________________________________
+ALGORITMO EXERCICIO 3
+
+bruninha ta no brasil, nao em portugas! 
+
+ALGORITMO
+DECLARE N1,N2,N3,M,P NUMERICO
+ESCREVA "DIGITE AQUI AS TRÊS NOTAS="
+LEIA N1,N2,N3
+M <-- (N1+N2+N3)/3
+SE M<5
+P <-- 10-M+2
+ENTÃO ESCREVA "ALUNO EM RECUPERAÇÃO, NECESSARIO P/APROV=" P
+SENÃO INICIO
+	SE M<7
+	P <-- 10-M
+	ESCREVA "ALUNO EM PROVA FINAL, NECESSARIO P/APROV=" P
+	SENÃO SE INICIO
+		ESCREVA "ALUNO APROVADO POR MÉDIA"
+		 FIM
+	FIM
+FIM_ALGORITMO
+
+
+
+
